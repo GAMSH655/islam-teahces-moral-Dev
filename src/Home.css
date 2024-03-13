@@ -56,6 +56,8 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
+        position: relative;
+        z-index: -1;
     }
     .textbox{
         text-align: center;

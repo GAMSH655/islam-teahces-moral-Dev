@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     background-color:#00308F;
+    /* position:absolute; */
 }
 .logo{
      height: 80px;
@@ -17,15 +18,11 @@
      border-radius: 50px;
      margin: 20px;
 }
-.menuBTn {
-     width: 150px;
-   padding: 10px;
-   margin-right: 10px;
-   background-color:transparent;
-   border: none;
-   outline: none;
-   display: none;
-}
+  .fa-brands {
+     margin: 10px;
+     color: white;
+  }
+
 .navContainer{
     margin-top: 30px;
 }
@@ -33,7 +30,10 @@
     color: white;
     display: none;
 }
-a{
+.mobileNav{
+    display:none;
+}
+#navLink{
     text-decoration: none;
     font-size: 20px;
     margin: 40px;
@@ -41,26 +41,53 @@ a{
     padding-top: 30px;
     text-transform: uppercase;
 }
-#sigNIN , #signOut{
-    width: 150px;
-     color: white;
-     padding: 9px;
-     margin: 10px;
-     font-weight: bolder;
-     text-transform: uppercase;
-     background-color:#082567;
-     border: none;
-     border-radius: 10px;
-     outline: none;
-     margin-top: 30px;
+.menuBTn{
+    display: none;
+}
+.mobileIconContainer{
+    display: none;
 }
 @media only screen  and (max-width:768px) {
      .navContainer{
         display: none;
      }
-     .buttonContainer{
+     .iconContainer{
         display: none;
      }
+     .mobileNav{
+        display: block;
+        text-align: center;
+         background-image: linear-gradient( to left top,  #07102b28,#002387);
+        position: absolute;
+        width: 100%;
+        padding-top: 30px;
+        transition: all cubic-bezier(0.165, 0.84, 0.44, 1) ease-out;
+
+        animation-name: slideBar;
+        animation-duration: .9s;
+     }
+      @keyframes slideBar {
+        0%{transform:translateX(150px)}
+      }
+     #mobileLink{
+      display: block;
+      text-decoration: none;
+      text-decoration: none;
+      text-align: center;
+      font-size: 20px;
+      margin: 40px;
+      color: white;
+      padding-top: 30px;
+      text-transform: uppercase;
+     }
+     .mobileIconContainer{
+        display: block;
+       
+    }
+    .Home{
+       
+    }
+     
      .menuBTn {
        width: 150px;
         padding: 10px;
