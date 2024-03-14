@@ -1,0 +1,52 @@
+.MissionContainer{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns:repeat(3 ,1fr);
+}
+
+.MissionUpperText{
+   color: #002387;
+   text-align: center;
+   font-size: 3rem;
+   font-weight: bolder;
+   padding: 20px;
+   text-transform: uppercase;
+   background-color: whitesmoke;
+   font-family: serif;
+}
+.gridUpperText{
+     font-size: 2rem;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 400;
+     text-transform: capitalize;
+     padding: 10px;
+     text-align: center;
+}
+.gridInnerText{
+     padding-top: 10px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.GridBox{
+     background-color:white;
+     margin: 20px;
+     padding: 20px;
+     box-shadow: 2px 2px 10px .2px black;
+     border-radius: 10px;
+}
+
+@media only screen and (max-width:768px) {
+    .MissionContainer{
+        display:flex;
+        justify-content: space-between;
+       flex-wrap: wrap;
+    }
+    .GridBox{
+        background-color:white;
+        margin: 20px;
+        padding: 20px;
+        box-shadow: 2px 2px 10px .2px black;
+        border-radius: 10px;
+        width: 100%;
+   }
+}
