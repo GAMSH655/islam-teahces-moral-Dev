@@ -28,7 +28,6 @@
 .gridInnerText{
      padding-top: 10px;
     text-align: justify;
-    line-height: 30px;
     letter-spacing: 2px;
     color: white;
 }
@@ -37,7 +36,7 @@
      padding: 20px;
      box-shadow: 2px 2px 10px .2px black;
      border-radius: 10px;
-     background-image: linear-gradient( to left top, rgba(0, 0, 0, 0.692),#002387), url('./assets/mosque.avif');
+     background-image: linear-gradient( to left top, rgba(0, 0, 0, 0.692),#001487ad), url('./assets/mosque.avif');
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;

@@ -6,14 +6,11 @@
    box-sizing: border-box;
    font-family:Montserrat ;
 }
-body{
-
-}
 .headerContainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#00308F;
+    background-color:#02022c;
     /* position:absolute; */
 }
 .logo{
@@ -26,7 +23,6 @@ body{
      margin: 10px;
      color: white;
   }
-
 .navContainer{
     margin-top: 30px;
 }
