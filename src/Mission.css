@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family:Montserrat ;
+}
 .MissionContainer{
     background-color: whitesmoke;
     display: grid;
@@ -12,27 +16,31 @@
    padding: 20px;
    text-transform: uppercase;
    background-color: whitesmoke;
-   font-family: serif;
 }
 .gridUpperText{
      font-size: 2rem;
-     font-family: Georgia, 'Times New Roman', Times, serif;
      font-weight: 400;
      text-transform: capitalize;
      padding: 10px;
      text-align: center;
+     color: white;
 }
 .gridInnerText{
      padding-top: 10px;
     text-align: justify;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: white;
 }
 .GridBox{
-     background-color:white;
      margin: 20px;
      padding: 20px;
      box-shadow: 2px 2px 10px .2px black;
      border-radius: 10px;
+     background-image: linear-gradient( to left top, rgba(0, 0, 0, 0.692),#002387), url('./assets/mosque.avif');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
 }
 
 @media only screen and (max-width:768px) {
