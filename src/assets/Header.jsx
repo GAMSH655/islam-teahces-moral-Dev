@@ -25,7 +25,7 @@ function Header() {
            <a href="  https://twitter.com/itmchannel/"> <i className="fa-brands fa-twitter fa-2xl"></i></a>
            </div>
            <button  className="menuBTn" onClick={handleClick}>
-           <i class="fa-solid fa-bars fa-2xl "></i>
+           <i className="fa-solid fa-bars fa-2xl "></i>
            </button>
          </div>
            {/* mobile header */}

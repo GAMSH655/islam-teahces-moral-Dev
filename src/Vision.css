@@ -5,6 +5,7 @@
 .Vision{
     display: flex;
     justify-content:space-around;
+    background-color:whitesmoke;
 
 }
 .visionSideTExt{
@@ -30,10 +31,13 @@
     text-align: center;
     color: white;
 }
+#KAtib{
+    flex-grow: 50px;
+   }
 @media only screen and (max-width:768px) {
     .Vision{
         display: flex;
         justify-content:space-around;
         flex-wrap: wrap;
-    }  
+    } 
 }

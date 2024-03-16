@@ -18,6 +18,7 @@
      text-transform: capitalize;
      letter-spacing: 4px;
      font-stretch: expanded;
+     color: red;
 }
 .introTExt{
     font-size: 3rem;
