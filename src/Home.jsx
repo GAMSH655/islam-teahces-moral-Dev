@@ -10,10 +10,10 @@ import './Home.css'
                 <img src={img} alt="" id='katibImg' />
                 </div>
              <div className="textbox">
-                 <p className="text1">asalaam alykum warohmotullahi wabarakaatuhu.</p>
+                 <p className="text1">ISLAM TEACHES MORAL</p>
                 
                  <p className="introTExt">
-                   am ustaz abdul-hammed abdul azeez al-kaatib the founder of islam teaches moral.
+                  HOME OF ISLAMIC KNOWLEDGE AND UNDERSTANDING.
                  </p>
              </div>
          </div>

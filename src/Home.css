@@ -17,12 +17,14 @@
      color: white;
      text-transform: capitalize;
      letter-spacing: 4px;
-     font-stretch: expanded;
+     text-align: center;
+     font-family:Montserrat ;;
 }
 .introTExt{
     font-size: 3rem;
     font-weight: bolder;
     color: white;
+    text-align: center;
     text-transform: capitalize;
     letter-spacing: 4px;
     font-stretch: expanded;
