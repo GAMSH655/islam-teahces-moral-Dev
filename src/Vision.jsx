@@ -5,7 +5,7 @@ function VisionComp(){
      return (
         <div>
              <div className="Vision">
-                <img src="./src/assets/katib.png"  id="npm"alt="" />
+                <img src="./src/assets/katib.png"  id=""alt="" />
                 <div className="visionSideTExt">
                     <h3>MISSION</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex similique quis hic nobis repudiandae fugit odio alias ullam laborum? Obcaecati ex suscipit accusantium, laudantium inventore maiores tenetur reiciendis esse cumque.
