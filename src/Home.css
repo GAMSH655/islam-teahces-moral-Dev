@@ -12,7 +12,7 @@
     justify-content: space-between;
 }
 .text1{
-     font-size: 1rem;
+     font-size: 2rem;
      font-weight: bolder;
      color: white;
      text-transform: capitalize;
@@ -68,7 +68,7 @@
         margin: 0;
     }
     .introTExt{
-        margin: 40px;
+        margin: 1rem;
         font-size: 1rem;
     }
     .imgCont{
