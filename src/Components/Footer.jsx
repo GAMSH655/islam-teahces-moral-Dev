@@ -1,11 +1,11 @@
-import Img from "../assets/itmImg.png"
+import Img from '../assets/itmImg.jpg'
 import './Footer.css'
  function Footer(){
     return(
         <div >
               <div className="footer">
                <div className="firtsCont">
-                  <img src={Img} alt="" className='footerImg' />
+               <img src={Img} alt="" className='logo' />
                   <h3 className="footerLogoText">islam teaches moral</h3>
                   <p className="footext1">ISLAM TEACHES MORAL</p>
                      <p className="foExt">
