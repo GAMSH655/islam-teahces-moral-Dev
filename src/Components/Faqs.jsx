@@ -1,12 +1,11 @@
 import './Faqs.css'
 import { useState } from 'react'
 function FAQS(props){
-      
-const [IsOpen , setIsOpen ] = useState(false)
-const ToggleAccordion = () =>{
-  setIsOpen(!IsOpen)
-}
-  
+                  
+            const [IsOpen , setIsOpen ] = useState(false)
+            const ToggleAccordion = () =>{
+              setIsOpen(!IsOpen)
+            }
      
      return(
          <div>
@@ -15,7 +14,7 @@ const ToggleAccordion = () =>{
                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
                 <div className="Faqs active"  onClick={ToggleAccordion}>
                     <div className="accordionHeader" >
-                      {props.questionAsked}  <i className="fa-solid fa-chevron-up fa-2xl">  </i>
+                      {props.questionAsked}  <i className="fa-solid fa-chevron-up fa-2xl icon"></i>
                     </div>
                       <div className = {`answerContainer ${IsOpen ? "active" : ""}`} >
                        <p>{props.answerText}</p>

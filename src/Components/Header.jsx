@@ -1,4 +1,4 @@
-import '../Header.css'
+import '../Components/Header.css'
 import Img from '../assets/itmImg.jpg'
 import { useState } from 'react'
 
@@ -11,8 +11,8 @@ function Header() {
       
     return(
         <>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
          <div className='headerContainer'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
          <img src={Img} alt="" className='logo' />
           <div className='navContainer'>
               <a href="www.facebook.com" id='navLink'>home  <i className="fa-solid fa-house"></i></a>

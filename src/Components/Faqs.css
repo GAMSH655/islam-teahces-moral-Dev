@@ -13,7 +13,7 @@
    background-color: #000435;
    padding: 20px;
    color: white;
-   font-size: 1rem;
+   font-size: 1.3rem;
 }
 .text{
     font-size: 5rem;
@@ -21,7 +21,7 @@
 .answerContainer {
     max-height: 0;
     overflow: hidden;
-
+  
 }
 .fa-chevron-up{
     padding-top: 20px;
@@ -30,5 +30,21 @@
     max-height: 300px;
     overflow: none;
     transition: .5s all ease-in;
-    line-height: 40px;
+    /* line-height: 40px; */
+}
+.active.active-Icons{
+    transform: rotateX(180deg);
+    transition: .5s all ease-in;
+    margin-bottom: 10px;
+}
+@media only  screen and (max-width:768px) {
+    .active{
+        max-height: 300px;
+        overflow: none;
+        transition: .5s all ease-in;
+        line-height: 20px;
+    }
+    .answerContainer{
+        padding: 8px;
+    }
 }
