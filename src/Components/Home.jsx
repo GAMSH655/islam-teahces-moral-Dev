@@ -1,6 +1,6 @@
 
 import './Home.css'
-
+import Img from '../assets/Katib.jpg'
   
  function Home(){
      return(
