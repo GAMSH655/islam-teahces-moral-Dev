@@ -32,10 +32,11 @@
     transition: .5s all ease-in;
     /* line-height: 40px; */
 }
-.active.active-Icons{
+.plus{
     transform: rotateX(180deg);
     transition: .5s all ease-in;
     margin-bottom: 10px;
+    font-size: 1rem;
 }
 @media only  screen and (max-width:768px) {
     .active{

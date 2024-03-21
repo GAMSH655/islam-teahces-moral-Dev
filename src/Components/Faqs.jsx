@@ -14,7 +14,7 @@ function FAQS(props){
                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
                 <div className="Faqs active"  onClick={ToggleAccordion}>
                     <div className="accordionHeader" >
-                      {props.questionAsked}  <i className="fa-solid fa-chevron-up fa-2xl icon"></i>
+                      {props.questionAsked}   <p className='plus'>{IsOpen ? <i className="fa-solid fa-arrow-up  activeIcon"></i>:<i className="fa-solid fa-arrow-down  activeIcon"></i>}</p>
                     </div>
                       <div className = {`answerContainer ${IsOpen ? "active" : ""}`} >
                        <p>{props.answerText}</p>
