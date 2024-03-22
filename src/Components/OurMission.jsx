@@ -1,4 +1,5 @@
 import './Mission.css'
+import islam from "../assets/mosque.avif"
 function Mission(){
      return (
          <div>
@@ -20,10 +21,14 @@ function Mission(){
                  </div>
                  <div className="GridBox">
                      <h3 className="gridUpperText">islam</h3>
+                     <div>
+                        <img src={islam} alt="" />
                      <p className="gridInnerText">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda amet fugit blanditiis nisi odio praesentium quasi corrupti quis a cum culpa quos ipsum dolores at incidunt, consectetur labore eum.
                         Facere at consequuntur porro incidunt sint, quod et corporis ducimus laboriosam officia nesciunt, amet molestiae itaque recusandae cumque dolore? Error deleniti velit ipsa
                      </p>
+                     </div>
+                  
                  </div>
                  <div className="GridBox">
                      <h3 className="gridUpperText">islam</h3>
