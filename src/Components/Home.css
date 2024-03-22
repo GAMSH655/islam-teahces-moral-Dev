@@ -3,7 +3,7 @@
     font-family:Montserrat ;
 }
 .Home{
-    background-image: linear-gradient( to left top,  #3a4b7928,#002387), url('./src/assets/itmImg.jpg');
+    background-image: linear-gradient( to left top,  #3a4b7928,#002387), url('/src/assets/itmImg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

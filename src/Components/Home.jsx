@@ -1,4 +1,4 @@
-
+import Katib from "../assets/katib.png"
 import './Home.css'
 // import Katib from '/src/assets/katibImg.png'
   
@@ -7,7 +7,7 @@ import './Home.css'
         <>
          <div className='Home'>
                 <div className="imgCont">
-                <img src="./src/assets/katib.png" alt="" id='katibImg' />
+                <img src={Katib} alt="" id='katibImg' />
                 </div> 
              <div className="textbox">
                  <p className="text1">ISLAM TEACHES MORAL</p>

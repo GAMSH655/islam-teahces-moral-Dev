@@ -32,7 +32,7 @@
     transition: .5s all ease-in;
     /* line-height: 40px; */
 }
-.plus{
+.activeIcon{
     transform: rotateX(180deg);
     transition: .5s all ease-in;
     margin-bottom: 10px;
