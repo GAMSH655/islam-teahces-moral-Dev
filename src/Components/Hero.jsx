@@ -1,5 +1,5 @@
 import Katib from "../assets/katib.png"
-import './Home.css'
+import './Hero.css'
 // import Katib from '/src/assets/katibImg.png'
   
  function Home(){

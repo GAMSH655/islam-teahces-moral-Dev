@@ -1,23 +1,19 @@
 
-import Header from './Components/Header'
-import Home from './Components/Home'
-import Mission from './Components/OurMission'
-import Vision from './Components/Vision'
-import FAQS from './Components/Faqs'
-import Footer from './Components/Footer'
+
+import { BrowserRouter } from 'react-router-dom'
+import { Route } from 'react-router-dom'
+import { Routes } from 'react-router-dom'
+import Home from "../src/Pages/Homes"
+import About from "../src/Pages/About"
 function App (){
   return(
      <>
-       <Header />
-       <Home />
-       <Mission />
-       <Vision />
-       <FAQS  questionAsked="is this programmed a paid one" answerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia, recusandae hic blanditiis obcaecati distinctio incidunt omnis. Non magnam, nihil molestiae dignissimos, cupiditate exercitationem hic odio ab voluptas doloremque doloribus Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia, recusandae hic blanditiis obcaecati distinctio incidunt omnis. Non magnam, nihil molestiae dignissimos, cupiditate exercitationem hic odio ab voluptas doloremque ?"/>
-      
-       <FAQS  questionAsked="is this programmed a paid one" answerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia, recusandae hic blanditiis obcaecati distinctio incidunt omnis. Non magnam, nihil molestiae dignissimos, cupiditate exercitationem hic odio ab voluptas doloremque doloribus Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia, recusandae hic blanditiis obcaecati distinctio incidunt omnis. Non magnam, nihil molestiae dignissimos, cupiditate exercitationem hic odio ab voluptas doloremque ?"/>
-     
-       <FAQS  questionAsked="is this programmed a paid one" answerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia, recusandae hic blanditiis obcaecati distinctio incidunt omnis. Non magnam, nihil molestiae dignissimos, cupiditate exercitationem hic odio ab voluptas doloremque doloribus Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia, recusandae hic blanditiis obcaecati distinctio incidunt omnis. Non magnam, nihil molestiae dignissimos, cupiditate exercitationem hic odio ab voluptas doloremque ?"/>
-       <Footer />
+      <BrowserRouter>
+        <Routes>
+            <Route path='/' element={ <Home />}/>
+            <Route path='about' element={ <About />}/>
+        </Routes>
+      </BrowserRouter>
      </>
   )
 }export default App
