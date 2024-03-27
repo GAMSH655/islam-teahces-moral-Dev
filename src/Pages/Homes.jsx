@@ -4,6 +4,7 @@ import Mission from '../Components/OurMission'
 import Vision from '../Components/Vision'
 import FAQS from '../Components/Faqs'
 import Footer from '../Components/Footer'
+import { Link } from 'react-router-dom'
 function Home(){
      return(
          <>

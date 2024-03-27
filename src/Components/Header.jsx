@@ -1,7 +1,7 @@
 import '../Components/Header.css'
 import Img from '../assets/itmImg.jpg'
 import { useState } from 'react'
-
+import { NavLink } from 'react-router-dom';
 
 function Header() {
        const [action , setAction] = useState(false);
@@ -16,9 +16,9 @@ function Header() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
          <img src={Img} alt="" className='logo' />
           <div className='navContainer'>
-              <a href="www.facebook.com" id='navLink'>home  <i className="fa-solid fa-house"></i></a>
-              <a href="#" id='navLink'>about <i className="fa-solid fa-user"></i></a>
-              <a href="#" id='navLink'>activities <i className="fa-solid fa-inbox"></i></a>
+            <NavLink to="/" id='navLink'> home  <i className="fa-solid fa-house"></i></NavLink>
+            <NavLink to="/about" id='navLink'>about <i className="fa-solid fa-user"></i></NavLink>
+            <NavLink to="/activities" id='navLink' >activities <i className="fa-solid fa-inbox"></i></NavLink>
           </div>
            <div className="iconContainer">
            <a href="https://www.facebook.com/people/Islam-teaches-moral/100076434553906/?mibextid=LQQJ4d"><i className="fa-brands fa-facebook fa-2xl"></i></a>
@@ -38,12 +38,14 @@ function Header() {
            </div> 
             
           <div className='LinkContainer'>
-              <a href="#" id='mobileLink'>home  <i className="fa-solid fa-house"></i></a>
-              <a href="#" id='mobileLink'>about <i className="fa-solid fa-user"></i></a>
-              <a href="#" id='mobileLink'>activities <i className="fa-solid fa-inbox"></i></a>
+                <NavLink to="/" id='mobileLink'>
+                home<i className="fa-solid fa-house"></i></NavLink>
+                <NavLink to="/about" id='mobileLink'>about <i className="fa-solid fa-user"></i>
+                </NavLink>
+                <NavLink to="/activities" id='mobileLink'>
+                    activities <i className="fa-solid fa-inbox"></i>
+                </NavLink>
           </div>
-         
-
          </div>/* mobile header */}
          
         </>
